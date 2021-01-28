@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Buruh Seni Studio</title>
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="icon" href="/assets/image/LOGO VECTOR.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+		<img id="logo"src="/assets/image/text-logo-pink.png" alt="logo-buruhseni">
+		<nav>
+			<ul>
+				<a href="#"><li>Home</li></a>
+				<a href="#"><li>About Us</li></a>
+				<a href="#"><li>Client</li></a>
+				<a href="#"><li>Contact</li></a>
+				<a href="#">
+					<li><img id="search" src="/assets/image/search.png" alt="search"></li>
+				</a>
+			</ul>
+		</nav>
+	</header>
+	<div class="landing-page">
+		<div class="content1">
+			<img id="strip" src="/assets/image/line-pink.png" alt="pinkline">
+			<h1 id="were">We're a clothing</h1>
+			<h1 id="ahenci">production.</h1>
+		</div>
+		<div class="content2">
+			<h3>Form Pemesanan</h3>
+			<form class="pemesanan">
+				<label>Nama :</label>
+				<input type="text" placeholder="Masukkan Nama Lengkap">
+				<label>No HP :</label>
+				<input type="text" placeholder="Masukkan Nomor HP">
+				
+				<label>Jenis Kain :</label>
+				<select name="kain" id="kain">
+					<option value="30s">Combed 30s</option>
+					<option value="24s">Combed 24s</option>
+					<option value="bamboo">Cotton Bamboo</option>
+					<option value="carded">Cotton Carded</option>
+				</select>
+				
+				<div>
+					<label>Ukuran :</label><br>
+					<input type="radio" name="Ukuran" value="small">
+					<label for="male">S</label><br>
+					<input type="radio" name="Ukuran" value="medium">
+					<label for="female">M</label><br>
+					<input type="radio" name="Ukuran" value="large">
+					<label for="other">L</label><br>
+					<input type="radio" name="Ukuran" value="extra-large">
+					<label for="other">XL</label><br>
+				</div>
+				
+				<label>Lengan :</label>
+				<select name="Lengan" id="lengan">
+					<option value="panjang">Long Sleeve</option>
+					<option value="pendek">Short Sleeve</option>
+				</select>	
+				
+				<button type="button" onclick="alert('Pesanan anda telah di proses. Terima kasih.')">Order Here!</button>
+
+			</form>
+
+		</div>
+	</div>
+	<footer>
+		<div class="logo-footer">
+			<img src="/assets/image/brs-white.png" alt="">
+			<p>Copyright: Dodsstwn</p>
+		</div>
+	</footer>
+	<script src="/assets/javascript/main.js"></script>
+</body>
+</html>
