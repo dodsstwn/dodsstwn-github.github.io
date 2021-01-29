@@ -17,7 +17,7 @@
 				<a href="#"><li>Home</li></a>
 				<a href="#"><li>About Us</li></a>
 				<a href="#"><li>Client</li></a>
-				<a href="#"><li>Contact</li></a>
+				<a href="https://www.instagram.com/buruhseni.studio/"><li>Contact</li></a>
 				<a href="#">
 					<li><img id="search" src="/assets/image/search.png" alt="search"></li>
 				</a>
@@ -34,38 +34,36 @@
 			<h3>Order Form</h3>
 			<form class="pemesanan">
 				<label>Name :</label>
-				<input type="text" placeholder="Full Name">
+				<input type="text" id="namaUser" placeholder="Full Name">
 				<label>Phone Number :</label>
-				<input type="text" placeholder="Fill ur Phone Number">
+				<input type="text" id="hpUser" placeholder="Fill ur Phone Number">
 				
 				<label>Type of cloth :</label>
 				<select name="kain" id="kain">
-					<option value="30s">Combed 30s</option>
-					<option value="24s">Combed 24s</option>
-					<option value="bamboo">Cotton Bamboo</option>
-					<option value="carded">Cotton Carded</option>
+					<option value="Combed 30s">Combed 30s</option>
+					<option value="Combed 24s">Combed 24s</option>
+					<option value="Cotton Bamboo">Cotton Bamboo</option>
+					<option value="Cotton Modal">Cotton Modal</option>
 				</select>
-				
-				<div>
-					<label>Size :</label><br>
-					<input type="radio" name="Ukuran" value="small">
-					<label for="male">S</label><br>
-					<input type="radio" name="Ukuran" value="medium">
-					<label for="female">M</label><br>
-					<input type="radio" name="Ukuran" value="large">
-					<label for="other">L</label><br>
-					<input type="radio" name="Ukuran" value="extra-large">
-					<label for="other">XL</label><br>
-				</div>
+
+				<label>Size :</label>
+				<select name="ukuran" id="ukuran">
+					<option value="S">S</option>
+					<option value="M">M</option>
+					<option value="L">L</option>
+					<option value="XL">XL</option>
+				</select>
 				
 				<label>Sleeve :</label>
 				<select name="Lengan" id="lengan">
-					<option value="panjang">Long Sleeve</option>
-					<option value="pendek">Short Sleeve</option>
+					<option value="long">Long Sleeve</option>
+					<option value="short">Short Sleeve</option>
 				</select>	
 				
-				<button type="button" onclick="alert('Pesanan anda telah di proses. Terima kasih.')">Order Here!</button>
-
+				<a href="index1.html">
+					<button type="button" onclick="getDataPemesan()">Let's Check Out!</button>
+				</a>
+				
 			</form>
 
 		</div>
